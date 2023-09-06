@@ -10,6 +10,10 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@fortawesome/vue-fontawesome": "^3.0.0-5",
+    "axios": "^1.5.0",
     "pinia": "^2.1.6",
     "vue": "^3.3.4",
     "vue-router": "^4.2.4"
@@ -21,7 +25,10 @@
     "@vue/eslint-config-prettier": "^8.0.0",
     "eslint": "^8.46.0",
     "eslint-plugin-vue": "^9.16.1",
+    "node-sass": "^9.0.0",
     "prettier": "^3.0.0",
+    "sass": "^1.66.1",
+    "sass-loader": "^13.3.2",
     "vite": "^4.4.9"
   }
 }

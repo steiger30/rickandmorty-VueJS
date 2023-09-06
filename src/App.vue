@@ -1,12 +1,22 @@
-<script setup>
-import { RouterView } from 'vue-router'
+<script >
+import { RouterView } from 'vue-router';
+import vContainer from "@/components/container.vue"
+export default {
+  components: {
+    vContainer
+  }
+}
 </script>
 
 <template>
+  <div id="app">
+    <a>asdf</a>
 
-  <RouterView />
+    <vContainer>
+
+      <RouterView />
+    </vContainer>
+  </div>
 </template>
 
-<style scoped>
-
-</style>
+<style lang="scss"></style>
